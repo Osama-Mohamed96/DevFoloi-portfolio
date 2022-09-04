@@ -1,0 +1,691 @@
+/* Start Global rules */
+body {
+    font-family     : 'Roboto', sans-serif;
+    background-color: rgb(238, 238, 238);
+    margin          : 0%;
+    padding         : 0%;
+}
+
+/* End Global rules */
+
+/* start home styling */
+header {
+    width                : 100%;
+    height               : 100vh;
+    background           : rgba(0, 0, 0, 0.514) url("../img/hero-bg.jpg");
+    background-blend-mode: darken;
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-size     : 28px;
+    font-weight   : 500;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight   : 500;
+    letter-spacing: 0.5px;
+
+}
+
+.stop {
+    opacity: 1;
+    width  : 90%;
+}
+
+hr {
+    opacity: 0;
+    margin : 0;
+    border : solid 1px white;
+    width  : 0%;
+}
+
+.navbar-nav .nav-item .nav-link:hover hr {
+    opacity  : 1;
+    animation: moving forwards 0.5s;
+}
+
+@keyframes moving {
+    0% {
+        width: 0%;
+    }
+
+    90% {
+        width: 90%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.home-landing {
+    text-align: center;
+    margin-top: 14%;
+    color     : white;
+}
+
+.home-landing h2 {
+    font-size    : 65px;
+    font-weight  : 400;
+    margin-bottom: 2%;
+}
+
+.home-landing .p {
+    font-size     : 40px;
+    font-weight   : 500;
+    letter-spacing: 1px;
+}
+
+.p::after {
+    content  : " |";
+    animation: typing 5s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: " |";
+    }
+
+    3% {
+        content: " D|";
+    }
+
+    6% {
+        content: " De|";
+    }
+
+    9% {
+        content: " Des|";
+    }
+
+    12% {
+        content: " Desi|";
+    }
+
+    15% {
+        content: " Desig|";
+    }
+
+    18% {
+        content: " Design|";
+    }
+
+    21% {
+        content: " Designe|";
+    }
+
+    24% {
+        content: " Designer|";
+    }
+
+    27% {
+        content: " Designer|";
+    }
+
+    30% {
+        content: " Designer|";
+    }
+
+    31% {
+        content: " Designer|";
+    }
+
+    32% {
+        content: " Designer|";
+    }
+
+    33% {
+        content: " D|";
+    }
+
+    36% {
+        content: " De|";
+    }
+
+    39% {
+        content: " Dev|";
+    }
+
+    42% {
+        content: " Deve|";
+    }
+
+    45% {
+        content: " Devel|";
+    }
+
+    48% {
+        content: " Develo|";
+    }
+
+    51% {
+        content: " Develop|";
+    }
+
+    54% {
+        content: " Develope|";
+    }
+
+    57% {
+        content: " Developer|";
+    }
+
+    60% {
+        content: " Developer|";
+    }
+
+    63% {
+        content: " Developer|";
+    }
+
+    63% {
+        content: " Developer|";
+    }
+
+    63% {
+        content: " Developer|";
+    }
+
+    64% {
+        content: " Developer|";
+    }
+
+    65% {
+        content: " Developer|";
+    }
+
+    66% {
+        content: " F|";
+    }
+
+    69% {
+        content: " Fr|";
+    }
+
+    72% {
+        content: " Fre|";
+    }
+
+    75% {
+        content: " Free|";
+    }
+
+    78% {
+        content: " Freel|";
+    }
+
+    81% {
+        content: " Freela|";
+    }
+
+    84% {
+        content: " Freelan|";
+    }
+
+    87% {
+        content: " Freelanc|";
+    }
+
+    90% {
+        content: " Freelance|";
+    }
+
+    93% {
+        content: " Freelancer|";
+    }
+
+    96% {
+        content: " Freelancer|";
+    }
+
+    97% {
+        content: " Freelancer|";
+    }
+
+    98% {
+        content: " Freelancer|";
+    }
+
+    99% {
+        content: " Freelancer|";
+    }
+
+    100% {
+        content: " Freelancer|";
+    }
+
+}
+
+/* end home styling */
+
+/* start section about styling */
+.sec-about .container {
+    padding   : 4%;
+    margin    : 5% auto;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.418);
+}
+
+.about-info p span {
+    font-size: 15px;
+}
+
+.about-info p .span {
+    color      : rgba(30, 30, 30, 0.842);
+    font-size  : 18px;
+    font-weight: 500;
+}
+
+.skill h3 {
+    font-size: 18px;
+    padding  : 5% 0 3%;
+    color    : rgba(30, 30, 30, 0.836);
+}
+
+.skill span {
+    font-size: 15px;
+}
+
+.skill .progress {
+    margin: 2% 0;
+    height: 10px;
+}
+
+.about-me .about-text h5 {
+    font-size: 32px;
+}
+
+.about-me .about-text h5 .hr {
+    opacity      : 1;
+    margin       : 2% 0 0 0;
+    border       : solid 2px #0d6efd;
+    border-radius: 2px;
+    width        : 25%;
+}
+
+.about-me .about-text p {
+    margin     : 4% 0 0 0;
+    font-size  : 18px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-top : 6%;
+}
+
+/* end section about styling */
+
+/* start section services styling */
+.sec-services .container {
+    margin: 5% auto;
+}
+
+.sec-services .container .services-title h3 {
+    font-size  : 48px;
+    font-weight: 900;
+    color      : rgb(30, 30, 30)
+}
+
+.sec-services .container .services-title p {
+    position     : relative;
+    margin-bottom: 6%;
+}
+
+.sec-services .container .services-title p::before {
+    content         : "";
+    margin-top      : 4px;
+    width           : 7%;
+    height          : 6px;
+    background-color: rgb(0, 120, 255);
+    position        : absolute;
+    top             : 100%;
+    left            : 50%;
+    transform       : translatex(-50%);
+
+}
+.inner {
+    background-color: white;
+    box-shadow      : 0 0 8px rgba(128, 128, 128, 0.308)
+}
+
+.inner .serv-main {
+    padding-top: 8%;
+}
+
+.inner .serv-main .serv-title {
+    font-size : 22px;
+    color     : rgb(30, 30, 30);
+    margin-top: 8%;
+}
+
+.inner .serv-main .icon i{
+    padding      : 5%;
+    font-size    : 35px;
+    border       : solid 7px rgb(0, 120, 255);
+    border-radius: 50%;
+    cursor       : pointer;
+    transition   : all 1s;
+}
+
+.inner:hover .icon i{
+    background-color: rgb(0, 120, 255);
+    color           : white;
+    border          : solid 7px #87ade5;
+    cursor          : pointer;
+
+}
+
+/* end section services styling */
+
+/* srtart section none styling */
+.sec-none {
+    background           : rgb(0, 119, 255) url("../img/post-3.jpg");
+    background-position  : top right;
+    background-size      : cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    margin-bottom        : 5%;
+}
+
+.sec-none .container {
+    margin : auto;
+    padding: 6% 0;
+}
+
+.sec-none .container .items {
+    padding: 5% 0 4%;
+    color  : white;
+}
+
+.sec-none .container .item1 .sec-none-icon i {
+    font-size    : 30px;
+    padding      : 7%;
+    border       : solid 8px #dae5f7;
+    border-radius: 50%;
+}
+
+.sec-none .container .item1 .sec-none-content {
+    margin: 30px 0;
+}
+.sec-none .container .item1 .sec-none-content h3{
+    font-size: 32px;
+}
+
+/* end section none styling */
+
+/* start section portfolio styling */
+.sec-portfolio .container .port-title h3 {
+    font-size  : 48px;
+    font-weight: 900;
+    color      : rgb(30, 30, 30)
+}
+
+.sec-portfolio .container .port-title p {
+    position     : relative;
+    margin-bottom: 6%;
+}
+
+.sec-portfolio .container .port-title p::before {
+    content         : "";
+    margin-top      : 4px;
+    width           : 7%;
+    height          : 6px;
+    background-color: rgb(0, 120, 255);
+    position        : absolute;
+    top             : 100%;
+    left            : 50%;
+    transform       : translatex(-50%);
+
+}
+
+.sec-portfolio .container .inner-port {
+    overflow        : hidden;
+    background-color: white;
+    box-shadow      : 0 0 8px rgba(128, 128, 128, 0.308)
+}
+
+.sec-portfolio .container .inner-port .port-img img {
+    width     : 100%;
+    transition: all 1s;
+}
+
+.sec-portfolio .container .inner-port:hover img {
+    transform: scale(1.5);
+    cursor   : pointer;
+}
+
+.sec-portfolio .container .inner-port .port-img {
+    overflow: hidden;
+}
+
+.sec-portfolio .container .inner-port .port-text {
+    padding   : 10% 5% 0 5%;
+    text-align: left
+}
+
+.sec-portfolio .container .inner-port .port-text h3 {
+    font-size: 20px;
+}
+
+.sec-portfolio .container .inner-port .port-text p {
+    font-size: 14px;
+}
+
+.sec-portfolio .container .inner-port .port-text p span {
+    color: #0d6efd;
+}
+
+.sec-portfolio .container .inner-port .port-text .btn1 a i {
+    font-size    : 26px;
+    padding      : 2px;
+    border       : solid 3px #0d6efd;
+    border-radius: 50%;
+}
+
+/* end section portfolio styling */
+
+/* start section test styling */
+.sec-test {
+    background           : rgb(0, 119, 255) url("../img/overlay-bg.jpg");
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    margin-bottom        : 5%;
+}
+
+.carousel-main {
+    padding: 11%;
+}
+
+.carousel-inner {
+    padding-bottom: 5%;
+}
+
+.carousel-inner .carousel-item img {
+    border-radius: 50%;
+}
+
+.carousel-inner .carousel-item h3 {
+    color      : white;
+    font-size  : 27px;
+    font-weight: 400;
+    padding    : 2% 0;
+}
+
+.carousel-inner .carousel-item p {
+    color      : white;
+    font-size  : 20px;
+    font-weight: 300;
+}
+
+.carousel-inner .carousel-indicators .btn5 {
+    width        : 12px;
+    height       : 12px;
+    border-radius: 50%;
+}
+
+/* end section test styling */
+
+/* start section blog styling */
+.sec-blog .container .blog-title h3 {
+    font-size  : 48px;
+    font-weight: 900;
+    color      : rgb(30, 30, 30);
+}
+
+.sec-blog .container .blog-title p {
+    position     : relative;
+}
+
+.sec-blog .container .blog-title p::before {
+    content         : "";
+    margin-top      : 4px;
+    width           : 7%;
+    height          : 6px;
+    background-color: rgb(0, 120, 255);
+    position        : absolute;
+    top             : 100%;
+    left            : 50%;
+    transform       : translatex(-50%);
+
+}
+.card{
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.233);
+}
+.card-body .card-title{
+    color      : rgb(30, 30, 30);
+    transition: all 1s;
+}
+.card-body .card-title:hover{
+    color: #0d6efd;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+.card span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-footer{
+    padding: 3%;
+}
+.card-footer .footer1 img{
+    border-radius: 50%;
+    width: 13%;
+}
+/* end section blog styling */
+
+/* start section contact styling */
+.sec-contact {
+    background           : rgba(0, 119, 255, 0.774) url("../img/overlay-bg.jpg");
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    margin-top: 8%;
+    padding: 6% 0 3% 0;
+}
+.sec-contact .container{
+    margin: auto;
+    padding: 4%;
+}
+.sec-contact .container .contact1 h5{
+    font-size  : 35px;
+    font-weight: 400;
+    color      : rgb(30, 30, 30);
+    position: relative;
+    margin-bottom: 10%;
+    padding-bottom: 1.5%;
+}
+.sec-contact .container .contact1 h5::before {
+    content         : "";
+    width           : 20%;
+    height          : 3px;
+    background-color: rgb(0, 120, 255);
+    position        : absolute;
+    top             : 100%;
+    left            : 10%;
+    transform       : translatex(-50%);
+}
+.sec-contact .container .contact2 h5{
+    font-size  : 35px;
+    font-weight: 400;
+    color      : rgb(30, 30, 30);
+    position: relative;
+    margin-bottom: 10%;
+    padding-bottom: 1.5%;
+}
+.sec-contact .container .contact2 h5::before {
+    content         : "";
+    width           : 20%;
+    height          : 3px;
+    background-color: rgb(0, 120, 255);
+    position        : absolute;
+    top             : 100%;
+    left            : 10%;
+    transform       : translatex(-50%);
+}
+.sec-contact .container p{
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sec-contact .container .contact2 .address{
+    margin-top: 4%;
+}
+.sec-contact .container .contact2 .address p{
+    line-height: 15px;
+}
+.sec-contact .container .contact2 .address .icon{
+    margin-right: 2%;
+    font-size: 16px;
+    color: #0d6efd;
+}
+.sec-contact .container .contact2 .address span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.sec-contact .container .contact2 .social{
+    margin-top: 5%;
+}
+.sec-contact .container .contact2 .social a i{
+    border: solid #0d6efd 3px; 
+    border-radius: 50%;
+    padding: 2%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.712);
+    transition: all 1s;
+}
+.sec-contact .container .contact2 .social a:hover i{
+    border: solid #b3d1ff 3px;
+    color: white;
+    background-color: #0d6efd;
+}
+/* end section contact styling */
+
+/* start footer styling */
+footer{
+    background-color: rgb(0, 98, 211);
+    text-align: center;
+    padding: 3%;
+}
+footer h2{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}
+footer h2 span{
+    font-weight: 500;
+}
+footer h4{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}
+/* end footer styling */
+
+
+
